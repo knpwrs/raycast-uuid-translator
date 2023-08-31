@@ -1,10 +1,10 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "shorten-or-expand-uuids",
-  "title": "Shorten or Expand UUIDs",
+  "name": "uuid-translator",
+  "title": "Translate UUIDs",
   "description": "Translates between RFC4122 v4-compliant UUIDs and flickr-esque base 58 UUIDs.",
   "icon": "command-icon.png",
-  "author": "ken_powers",
+  "author": "knpwrs",
   "categories": [
     "Developer Tools"
   ],
@@ -12,7 +12,7 @@
   "commands": [
     {
       "name": "index",
-      "title": "Shorten/Expand UUID on Clipboard",
+      "title": "Shorten/Expand/Translate UUID on Clipboard",
       "description": "Translates between RFC4122 v4-compliant UUIDs and flickr-esque base 58 UUIDs.",
       "mode": "no-view"
     }
