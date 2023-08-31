@@ -12,13 +12,15 @@
   "commands": [
     {
       "name": "index",
-      "title": "Shorten/Expand UUID",
-      "description": "",
+      "title": "Shorten/Expand UUID on Clipboard",
+      "description": "Translates between RFC4122 v4-compliant UUIDs and flickr-esque base 58 UUIDs.",
       "mode": "no-view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.56.0"
+    "@raycast/api": "^1.56.0",
+    "is-valid-uuid-v4": "^1.2.3",
+    "short-uuid": "^4.2.2"
   },
   "devDependencies": {
     "@raycast/eslint-config": "1.0.5",
